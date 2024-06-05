@@ -1,5 +1,13 @@
 # Forecasting Tomorrow : Navigating Chaos to Predict Stock Market Trends
 
+## Summary
+
+This project delves into stock price prediction using deep learning techniques, particularly focusing on Recurrent Neural Networks (RNNs) due to their suitability for time series data. The objective is to predict the direction of movement of the price of a particular stock -- up or down -- given time series data of its closing price. The study starts with data collection from S&P 500 companies, preprocessing the data, and balancing the training set. The report discusses why classification is chosen over regression, selecting RNNs over traditional models like OLS and kNN.
+
+The model architecture includes a SimpleRNN layer followed by several dense layers, trained using binary cross-entropy loss and optimized with Adam. Evaluation metrics such as f1 score, accuracy, and ROC curve are employed to assess performance.
+
+Results show a moderate level of accuracy in predicting stock price movements, with potential for further optimization and refinement. The study contributes insights into the effectiveness of deep learning models for stock price prediction, suggesting avenues for future research and model enhancements.
+
 ## Directory Structure
 
 ### FinalReport.pdf
